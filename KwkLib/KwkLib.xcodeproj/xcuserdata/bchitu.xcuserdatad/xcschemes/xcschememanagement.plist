@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>KWKAdMobMediation.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>KwankoConversion.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>KwkLib.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>4024A0DD1ED714AF00195AB2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>406D453C1DFB04B700BB4DFA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>407AB4631ECDCFB50009F162</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>40D36DBC1E7AE0B300D4B1A4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>40F2BE061E6826EE002AEA02</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

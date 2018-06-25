@@ -1,0 +1,945 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		407AB38D1ECC440E0009F162 /* KWKRestService.m in Sources */ = {isa = PBXBuildFile; fileRef = 407AB3161ECC440E0009F162 /* KWKRestService.m */; };
+		407AB38E1ECC440E0009F162 /* KWKAdRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 407AB31B1ECC440E0009F162 /* KWKAdRequest.m */; };
+		407AB38F1ECC440E0009F162 /* KWKBannerAdRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 407AB31D1ECC440E0009F162 /* KWKBannerAdRequest.m */; };
+		407AB3901ECC440E0009F162 /* KWKNativeAdRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 407AB3201ECC440E0009F162 /* KWKNativeAdRequest.m */; };
+		407AB3911ECC440E0009F162 /* KWKOverlayAdRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 407AB3231ECC440E0009F162 /* KWKOverlayAdRequest.m */; };
+		407AB3921ECC440E0009F162 /* KWKParallaxBannerAdRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 407AB3251ECC440E0009F162 /* KWKParallaxBannerAdRequest.m */; };
+		407AB3931ECC440E0009F162 /* KwankoConversion.m in Sources */ = {isa = PBXBuildFile; fileRef = 407AB3281ECC440E0009F162 /* KwankoConversion.m */; };
+		407AB3941ECC440E0009F162 /* KwankoRemarketing.m in Sources */ = {isa = PBXBuildFile; fileRef = 407AB32A1ECC440E0009F162 /* KwankoRemarketing.m */; };
+		407AB3951ECC440E0009F162 /* KWKAdProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 407AB32D1ECC440E0009F162 /* KWKAdProvider.m */; };
+		407AB3961ECC440E0009F162 /* KWKBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 407AB32F1ECC440E0009F162 /* KWKBannerView.m */; };
+		407AB3971ECC440E0009F162 /* KWKClosableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 407AB3311ECC440E0009F162 /* KWKClosableView.m */; };
+		407AB3981ECC440E0009F162 /* KWKGlobals.m in Sources */ = {isa = PBXBuildFile; fileRef = 407AB3331ECC440E0009F162 /* KWKGlobals.m */; };
+		407AB3991ECC440E0009F162 /* KwkLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 407AB3361ECC440E0009F162 /* KwkLib.m */; };
+		407AB39A1ECC440E0009F162 /* KWKOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 407AB33A1ECC440E0009F162 /* KWKOverlay.m */; };
+		407AB39E1ECC440E0009F162 /* KWKMraidMediatedBanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 407AB3451ECC440E0009F162 /* KWKMraidMediatedBanner.m */; };
+		407AB39F1ECC440E0009F162 /* KWKMraidMediatedInterstitial.m in Sources */ = {isa = PBXBuildFile; fileRef = 407AB3471ECC440E0009F162 /* KWKMraidMediatedInterstitial.m */; };
+		407AB3A01ECC440E0009F162 /* KWKMediatedBanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 407AB3491ECC440E0009F162 /* KWKMediatedBanner.m */; };
+		407AB3A11ECC440E0009F162 /* KWKMediatedInterstitial.m in Sources */ = {isa = PBXBuildFile; fileRef = 407AB34B1ECC440E0009F162 /* KWKMediatedInterstitial.m */; };
+		407AB3A21ECC440E0009F162 /* KWKAdData.m in Sources */ = {isa = PBXBuildFile; fileRef = 407AB3501ECC440E0009F162 /* KWKAdData.m */; };
+		407AB3A31ECC440E0009F162 /* KWKNativeAdData.m in Sources */ = {isa = PBXBuildFile; fileRef = 407AB3521ECC440E0009F162 /* KWKNativeAdData.m */; };
+		407AB3A41ECC440E0009F162 /* KwkOverlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 407AB3551ECC440E0009F162 /* KwkOverlayViewController.m */; };
+		407AB3A51ECC440E0009F162 /* KWKAdBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 407AB3581ECC440E0009F162 /* KWKAdBaseView.m */; };
+		407AB3A61ECC440E0009F162 /* KWKHtmlAdView.m in Sources */ = {isa = PBXBuildFile; fileRef = 407AB35A1ECC440E0009F162 /* KWKHtmlAdView.m */; };
+		407AB3A71ECC440E0009F162 /* KWKMraidAdView.m in Sources */ = {isa = PBXBuildFile; fileRef = 407AB35D1ECC440E0009F162 /* KWKMraidAdView.m */; };
+		407AB3A81ECC440E0009F162 /* KWKJSExpandProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 407AB3601ECC440E0009F162 /* KWKJSExpandProperty.m */; };
+		407AB3A91ECC440E0009F162 /* KWKJSOrientaionProprety.m in Sources */ = {isa = PBXBuildFile; fileRef = 407AB3621ECC440E0009F162 /* KWKJSOrientaionProprety.m */; };
+		407AB3AA1ECC440E0009F162 /* KWKJSPosition.m in Sources */ = {isa = PBXBuildFile; fileRef = 407AB3641ECC440E0009F162 /* KWKJSPosition.m */; };
+		407AB3AB1ECC440E0009F162 /* KWKJSResizeProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 407AB3661ECC440E0009F162 /* KWKJSResizeProperty.m */; };
+		407AB3AC1ECC440E0009F162 /* KWKJSSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 407AB3681ECC440E0009F162 /* KWKJSSize.m */; };
+		407AB3AD1ECC440E0009F162 /* KWKMraid.m in Sources */ = {isa = PBXBuildFile; fileRef = 407AB36A1ECC440E0009F162 /* KWKMraid.m */; };
+		407AB3AE1ECC440E0009F162 /* KWKMRAIDBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 407AB36D1ECC440E0009F162 /* KWKMRAIDBridge.m */; };
+		407AB3AF1ECC440E0009F162 /* KWKMraidHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 407AB3701ECC440E0009F162 /* KWKMraidHelper.m */; };
+		407AB3B01ECC440E0009F162 /* KWKMraidExpandViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 407AB3731ECC440E0009F162 /* KWKMraidExpandViewController.m */; };
+		407AB3B11ECC440E0009F162 /* KWKNativeAd.m in Sources */ = {isa = PBXBuildFile; fileRef = 407AB3761ECC440E0009F162 /* KWKNativeAd.m */; };
+		407AB3B21ECC440E0009F162 /* KWKParallaxBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 407AB37A1ECC440E0009F162 /* KWKParallaxBannerView.m */; };
+		407AB3B31ECC440E0009F162 /* KWKParallaxTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 407AB37D1ECC440E0009F162 /* KWKParallaxTableViewCell.m */; };
+		407AB3B41ECC440E0009F162 /* KWKConnectivityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 407AB3811ECC440E0009F162 /* KWKConnectivityManager.m */; };
+		407AB3B51ECC440E0009F162 /* KWKReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 407AB3831ECC440E0009F162 /* KWKReachability.m */; };
+		407AB3B61ECC440E0009F162 /* KWKCalendarUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 407AB3851ECC440E0009F162 /* KWKCalendarUtils.m */; };
+		407AB3B71ECC440E0009F162 /* KWKDBHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 407AB3871ECC440E0009F162 /* KWKDBHelper.m */; };
+		407AB3B81ECC440E0009F162 /* KWKUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 407AB3891ECC440E0009F162 /* KWKUtils.m */; };
+		407AB3B91ECC440E0009F162 /* KWKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 407AB38C1ECC440E0009F162 /* KWKWebViewController.m */; };
+		407AB3BA1ECC441F0009F162 /* KwankoConversion.m in Sources */ = {isa = PBXBuildFile; fileRef = 407AB3281ECC440E0009F162 /* KwankoConversion.m */; };
+		407AB3BB1ECC441F0009F162 /* KwankoRemarketing.m in Sources */ = {isa = PBXBuildFile; fileRef = 407AB32A1ECC440E0009F162 /* KwankoRemarketing.m */; };
+		407AB3BC1ECC443F0009F162 /* KwankoConversion.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 407AB3271ECC440E0009F162 /* KwankoConversion.h */; };
+		407AB3BD1ECC443F0009F162 /* KwankoRemarketing.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 407AB3291ECC440E0009F162 /* KwankoRemarketing.h */; };
+		407AB3C31ECC501B0009F162 /* KWKAdRequest.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 407AB31A1ECC440E0009F162 /* KWKAdRequest.h */; };
+		407AB3C41ECC501B0009F162 /* KWKBannerAdRequest.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 407AB31C1ECC440E0009F162 /* KWKBannerAdRequest.h */; };
+		407AB3C51ECC501B0009F162 /* KWKNativeAdRequest.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 407AB31F1ECC440E0009F162 /* KWKNativeAdRequest.h */; };
+		407AB3C61ECC501B0009F162 /* KWKOverlayAdRequest.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 407AB3221ECC440E0009F162 /* KWKOverlayAdRequest.h */; };
+		407AB3C71ECC501B0009F162 /* KWKParallaxBannerAdRequest.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 407AB3241ECC440E0009F162 /* KWKParallaxBannerAdRequest.h */; };
+		407AB3C81ECC501B0009F162 /* KwankoConversion.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 407AB3271ECC440E0009F162 /* KwankoConversion.h */; };
+		407AB3C91ECC501B0009F162 /* KwankoRemarketing.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 407AB3291ECC440E0009F162 /* KwankoRemarketing.h */; };
+		407AB3CA1ECC501B0009F162 /* KWKBannerView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 407AB32E1ECC440E0009F162 /* KWKBannerView.h */; };
+		407AB3CB1ECC501B0009F162 /* KwkLib.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 407AB3351ECC440E0009F162 /* KwkLib.h */; };
+		407AB3CC1ECC501B0009F162 /* KWKOverlay.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 407AB3391ECC440E0009F162 /* KWKOverlay.h */; };
+		407AB3DD1ECC52820009F162 /* KWKParallaxBannerView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 407AB3791ECC440E0009F162 /* KWKParallaxBannerView.h */; };
+		407AB3FD1ECC75A20009F162 /* KWKNativeAd.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 407AB3751ECC440E0009F162 /* KWKNativeAd.h */; };
+		407AB47E1ECDDF420009F162 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 407AB4761ECDDF420009F162 /* GoogleMobileAds.framework */; };
+		407AB47F1ECDDF420009F162 /* KWKAdMobMediatedBanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 407AB4791ECDDF420009F162 /* KWKAdMobMediatedBanner.m */; };
+		407AB4801ECDDF420009F162 /* KWKAdMobMediatedInterstitial.m in Sources */ = {isa = PBXBuildFile; fileRef = 407AB47B1ECDDF420009F162 /* KWKAdMobMediatedInterstitial.m */; };
+		407AB4811ECDDF420009F162 /* KWKAdMobMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 407AB47D1ECDDF420009F162 /* KWKAdMobMediator.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		406D453B1DFB04B700BB4DFA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				407AB3FD1ECC75A20009F162 /* KWKNativeAd.h in CopyFiles */,
+				407AB3DD1ECC52820009F162 /* KWKParallaxBannerView.h in CopyFiles */,
+				407AB3C31ECC501B0009F162 /* KWKAdRequest.h in CopyFiles */,
+				407AB3C41ECC501B0009F162 /* KWKBannerAdRequest.h in CopyFiles */,
+				407AB3C51ECC501B0009F162 /* KWKNativeAdRequest.h in CopyFiles */,
+				407AB3C61ECC501B0009F162 /* KWKOverlayAdRequest.h in CopyFiles */,
+				407AB3C71ECC501B0009F162 /* KWKParallaxBannerAdRequest.h in CopyFiles */,
+				407AB3C81ECC501B0009F162 /* KwankoConversion.h in CopyFiles */,
+				407AB3C91ECC501B0009F162 /* KwankoRemarketing.h in CopyFiles */,
+				407AB3CA1ECC501B0009F162 /* KWKBannerView.h in CopyFiles */,
+				407AB3CB1ECC501B0009F162 /* KwkLib.h in CopyFiles */,
+				407AB3CC1ECC501B0009F162 /* KWKOverlay.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		407AB4621ECDCFB50009F162 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40D36DBB1E7AE0B300D4B1A4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				407AB3BC1ECC443F0009F162 /* KwankoConversion.h in CopyFiles */,
+				407AB3BD1ECC443F0009F162 /* KwankoRemarketing.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		406D453D1DFB04B700BB4DFA /* libKwkLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libKwkLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		407AB3151ECC440E0009F162 /* KWKRestService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWKRestService.h; sourceTree = "<group>"; };
+		407AB3161ECC440E0009F162 /* KWKRestService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWKRestService.m; sourceTree = "<group>"; };
+		407AB3191ECC440E0009F162 /* KWKAdRequest+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KWKAdRequest+Private.h"; sourceTree = "<group>"; };
+		407AB31A1ECC440E0009F162 /* KWKAdRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWKAdRequest.h; sourceTree = "<group>"; };
+		407AB31B1ECC440E0009F162 /* KWKAdRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWKAdRequest.m; sourceTree = "<group>"; };
+		407AB31C1ECC440E0009F162 /* KWKBannerAdRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWKBannerAdRequest.h; sourceTree = "<group>"; };
+		407AB31D1ECC440E0009F162 /* KWKBannerAdRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWKBannerAdRequest.m; sourceTree = "<group>"; };
+		407AB31E1ECC440E0009F162 /* KWKNativeAdRequest+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KWKNativeAdRequest+Private.h"; sourceTree = "<group>"; };
+		407AB31F1ECC440E0009F162 /* KWKNativeAdRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWKNativeAdRequest.h; sourceTree = "<group>"; };
+		407AB3201ECC440E0009F162 /* KWKNativeAdRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWKNativeAdRequest.m; sourceTree = "<group>"; };
+		407AB3221ECC440E0009F162 /* KWKOverlayAdRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWKOverlayAdRequest.h; sourceTree = "<group>"; };
+		407AB3231ECC440E0009F162 /* KWKOverlayAdRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWKOverlayAdRequest.m; sourceTree = "<group>"; };
+		407AB3241ECC440E0009F162 /* KWKParallaxBannerAdRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWKParallaxBannerAdRequest.h; sourceTree = "<group>"; };
+		407AB3251ECC440E0009F162 /* KWKParallaxBannerAdRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWKParallaxBannerAdRequest.m; sourceTree = "<group>"; };
+		407AB3271ECC440E0009F162 /* KwankoConversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KwankoConversion.h; sourceTree = "<group>"; };
+		407AB3281ECC440E0009F162 /* KwankoConversion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KwankoConversion.m; sourceTree = "<group>"; };
+		407AB3291ECC440E0009F162 /* KwankoRemarketing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KwankoRemarketing.h; sourceTree = "<group>"; };
+		407AB32A1ECC440E0009F162 /* KwankoRemarketing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KwankoRemarketing.m; sourceTree = "<group>"; };
+		407AB32B1ECC440E0009F162 /* KwankoTrackingConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KwankoTrackingConstants.h; sourceTree = "<group>"; };
+		407AB32C1ECC440E0009F162 /* KWKAdProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWKAdProvider.h; sourceTree = "<group>"; };
+		407AB32D1ECC440E0009F162 /* KWKAdProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWKAdProvider.m; sourceTree = "<group>"; };
+		407AB32E1ECC440E0009F162 /* KWKBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWKBannerView.h; sourceTree = "<group>"; };
+		407AB32F1ECC440E0009F162 /* KWKBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWKBannerView.m; sourceTree = "<group>"; };
+		407AB3301ECC440E0009F162 /* KWKClosableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWKClosableView.h; sourceTree = "<group>"; };
+		407AB3311ECC440E0009F162 /* KWKClosableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWKClosableView.m; sourceTree = "<group>"; };
+		407AB3321ECC440E0009F162 /* KWKGlobals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWKGlobals.h; sourceTree = "<group>"; };
+		407AB3331ECC440E0009F162 /* KWKGlobals.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWKGlobals.m; sourceTree = "<group>"; };
+		407AB3341ECC440E0009F162 /* KWKLib+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KWKLib+Private.h"; sourceTree = "<group>"; };
+		407AB3351ECC440E0009F162 /* KwkLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KwkLib.h; sourceTree = "<group>"; };
+		407AB3361ECC440E0009F162 /* KwkLib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KwkLib.m; sourceTree = "<group>"; };
+		407AB3371ECC440E0009F162 /* KwkLibConsts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KwkLibConsts.h; path = ../KwkLibConsts.h; sourceTree = "<group>"; };
+		407AB3381ECC440E0009F162 /* KwkLibDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KwkLibDefines.h; sourceTree = "<group>"; };
+		407AB3391ECC440E0009F162 /* KWKOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWKOverlay.h; sourceTree = "<group>"; };
+		407AB33A1ECC440E0009F162 /* KWKOverlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWKOverlay.m; sourceTree = "<group>"; };
+		407AB3441ECC440E0009F162 /* KWKMraidMediatedBanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWKMraidMediatedBanner.h; sourceTree = "<group>"; };
+		407AB3451ECC440E0009F162 /* KWKMraidMediatedBanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWKMraidMediatedBanner.m; sourceTree = "<group>"; };
+		407AB3461ECC440E0009F162 /* KWKMraidMediatedInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWKMraidMediatedInterstitial.h; sourceTree = "<group>"; };
+		407AB3471ECC440E0009F162 /* KWKMraidMediatedInterstitial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWKMraidMediatedInterstitial.m; sourceTree = "<group>"; };
+		407AB3481ECC440E0009F162 /* KWKMediatedBanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWKMediatedBanner.h; sourceTree = "<group>"; };
+		407AB3491ECC440E0009F162 /* KWKMediatedBanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWKMediatedBanner.m; sourceTree = "<group>"; };
+		407AB34A1ECC440E0009F162 /* KWKMediatedInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWKMediatedInterstitial.h; sourceTree = "<group>"; };
+		407AB34B1ECC440E0009F162 /* KWKMediatedInterstitial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWKMediatedInterstitial.m; sourceTree = "<group>"; };
+		407AB34F1ECC440E0009F162 /* KWKAdData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWKAdData.h; sourceTree = "<group>"; };
+		407AB3501ECC440E0009F162 /* KWKAdData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWKAdData.m; sourceTree = "<group>"; };
+		407AB3511ECC440E0009F162 /* KWKNativeAdData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWKNativeAdData.h; sourceTree = "<group>"; };
+		407AB3521ECC440E0009F162 /* KWKNativeAdData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWKNativeAdData.m; sourceTree = "<group>"; };
+		407AB3541ECC440E0009F162 /* KwkOverlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KwkOverlayViewController.h; sourceTree = "<group>"; };
+		407AB3551ECC440E0009F162 /* KwkOverlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KwkOverlayViewController.m; sourceTree = "<group>"; };
+		407AB3571ECC440E0009F162 /* KWKAdBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWKAdBaseView.h; sourceTree = "<group>"; };
+		407AB3581ECC440E0009F162 /* KWKAdBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWKAdBaseView.m; sourceTree = "<group>"; };
+		407AB3591ECC440E0009F162 /* KWKHtmlAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWKHtmlAdView.h; sourceTree = "<group>"; };
+		407AB35A1ECC440E0009F162 /* KWKHtmlAdView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWKHtmlAdView.m; sourceTree = "<group>"; };
+		407AB35B1ECC440E0009F162 /* KWKMraidAdView+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KWKMraidAdView+Private.h"; sourceTree = "<group>"; };
+		407AB35C1ECC440E0009F162 /* KWKMraidAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWKMraidAdView.h; sourceTree = "<group>"; };
+		407AB35D1ECC440E0009F162 /* KWKMraidAdView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWKMraidAdView.m; sourceTree = "<group>"; };
+		407AB35F1ECC440E0009F162 /* KWKJSExpandProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWKJSExpandProperty.h; sourceTree = "<group>"; };
+		407AB3601ECC440E0009F162 /* KWKJSExpandProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWKJSExpandProperty.m; sourceTree = "<group>"; };
+		407AB3611ECC440E0009F162 /* KWKJSOrientaionProprety.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWKJSOrientaionProprety.h; sourceTree = "<group>"; };
+		407AB3621ECC440E0009F162 /* KWKJSOrientaionProprety.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWKJSOrientaionProprety.m; sourceTree = "<group>"; };
+		407AB3631ECC440E0009F162 /* KWKJSPosition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWKJSPosition.h; sourceTree = "<group>"; };
+		407AB3641ECC440E0009F162 /* KWKJSPosition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWKJSPosition.m; sourceTree = "<group>"; };
+		407AB3651ECC440E0009F162 /* KWKJSResizeProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWKJSResizeProperty.h; sourceTree = "<group>"; };
+		407AB3661ECC440E0009F162 /* KWKJSResizeProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWKJSResizeProperty.m; sourceTree = "<group>"; };
+		407AB3671ECC440E0009F162 /* KWKJSSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWKJSSize.h; sourceTree = "<group>"; };
+		407AB3681ECC440E0009F162 /* KWKJSSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWKJSSize.m; sourceTree = "<group>"; };
+		407AB3691ECC440E0009F162 /* KWKMraid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWKMraid.h; sourceTree = "<group>"; };
+		407AB36A1ECC440E0009F162 /* KWKMraid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWKMraid.m; sourceTree = "<group>"; };
+		407AB36B1ECC440E0009F162 /* KWKMRAIDBridge+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KWKMRAIDBridge+Private.h"; sourceTree = "<group>"; };
+		407AB36C1ECC440E0009F162 /* KWKMRAIDBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWKMRAIDBridge.h; sourceTree = "<group>"; };
+		407AB36D1ECC440E0009F162 /* KWKMRAIDBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWKMRAIDBridge.m; sourceTree = "<group>"; };
+		407AB36E1ECC440E0009F162 /* KWKMraidHelper+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KWKMraidHelper+Private.h"; sourceTree = "<group>"; };
+		407AB36F1ECC440E0009F162 /* KWKMraidHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWKMraidHelper.h; sourceTree = "<group>"; };
+		407AB3701ECC440E0009F162 /* KWKMraidHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWKMraidHelper.m; sourceTree = "<group>"; };
+		407AB3721ECC440E0009F162 /* KWKMraidExpandViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWKMraidExpandViewController.h; sourceTree = "<group>"; };
+		407AB3731ECC440E0009F162 /* KWKMraidExpandViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWKMraidExpandViewController.m; sourceTree = "<group>"; };
+		407AB3751ECC440E0009F162 /* KWKNativeAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWKNativeAd.h; sourceTree = "<group>"; };
+		407AB3761ECC440E0009F162 /* KWKNativeAd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWKNativeAd.m; sourceTree = "<group>"; };
+		407AB3781ECC440E0009F162 /* KWKParallaxBannerView+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KWKParallaxBannerView+Private.h"; sourceTree = "<group>"; };
+		407AB3791ECC440E0009F162 /* KWKParallaxBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWKParallaxBannerView.h; sourceTree = "<group>"; };
+		407AB37A1ECC440E0009F162 /* KWKParallaxBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWKParallaxBannerView.m; sourceTree = "<group>"; };
+		407AB37C1ECC440E0009F162 /* KWKParallaxTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWKParallaxTableViewCell.h; sourceTree = "<group>"; };
+		407AB37D1ECC440E0009F162 /* KWKParallaxTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWKParallaxTableViewCell.m; sourceTree = "<group>"; };
+		407AB3801ECC440E0009F162 /* KWKConnectivityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWKConnectivityManager.h; sourceTree = "<group>"; };
+		407AB3811ECC440E0009F162 /* KWKConnectivityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWKConnectivityManager.m; sourceTree = "<group>"; };
+		407AB3821ECC440E0009F162 /* KWKReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWKReachability.h; sourceTree = "<group>"; };
+		407AB3831ECC440E0009F162 /* KWKReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWKReachability.m; sourceTree = "<group>"; };
+		407AB3841ECC440E0009F162 /* KWKCalendarUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWKCalendarUtils.h; sourceTree = "<group>"; };
+		407AB3851ECC440E0009F162 /* KWKCalendarUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWKCalendarUtils.m; sourceTree = "<group>"; };
+		407AB3861ECC440E0009F162 /* KWKDBHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWKDBHelper.h; sourceTree = "<group>"; };
+		407AB3871ECC440E0009F162 /* KWKDBHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWKDBHelper.m; sourceTree = "<group>"; };
+		407AB3881ECC440E0009F162 /* KWKUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWKUtils.h; sourceTree = "<group>"; };
+		407AB3891ECC440E0009F162 /* KWKUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWKUtils.m; sourceTree = "<group>"; };
+		407AB38B1ECC440E0009F162 /* KWKWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWKWebViewController.h; sourceTree = "<group>"; };
+		407AB38C1ECC440E0009F162 /* KWKWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWKWebViewController.m; sourceTree = "<group>"; };
+		407AB4641ECDCFB50009F162 /* libKWKAdMobMediation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libKWKAdMobMediation.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		407AB4761ECDDF420009F162 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+		407AB4781ECDDF420009F162 /* KWKAdMobMediatedBanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWKAdMobMediatedBanner.h; sourceTree = "<group>"; };
+		407AB4791ECDDF420009F162 /* KWKAdMobMediatedBanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWKAdMobMediatedBanner.m; sourceTree = "<group>"; };
+		407AB47A1ECDDF420009F162 /* KWKAdMobMediatedInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWKAdMobMediatedInterstitial.h; sourceTree = "<group>"; };
+		407AB47B1ECDDF420009F162 /* KWKAdMobMediatedInterstitial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWKAdMobMediatedInterstitial.m; sourceTree = "<group>"; };
+		407AB47C1ECDDF420009F162 /* KWKAdMobMediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWKAdMobMediator.h; sourceTree = "<group>"; };
+		407AB47D1ECDDF420009F162 /* KWKAdMobMediator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWKAdMobMediator.m; sourceTree = "<group>"; };
+		40D36DBD1E7AE0B300D4B1A4 /* libKwankoConversion.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libKwankoConversion.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		406D453A1DFB04B700BB4DFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		407AB4611ECDCFB50009F162 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				407AB47E1ECDDF420009F162 /* GoogleMobileAds.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40D36DBA1E7AE0B300D4B1A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		406D45341DFB04B700BB4DFA = {
+			isa = PBXGroup;
+			children = (
+				407AB3131ECC440E0009F162 /* KwkLib */,
+				407AB3BE1ECC44700009F162 /* Frameworks */,
+				406D453E1DFB04B700BB4DFA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		406D453E1DFB04B700BB4DFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				406D453D1DFB04B700BB4DFA /* libKwkLib.a */,
+				40D36DBD1E7AE0B300D4B1A4 /* libKwankoConversion.a */,
+				407AB4641ECDCFB50009F162 /* libKWKAdMobMediation.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		407AB3131ECC440E0009F162 /* KwkLib */ = {
+			isa = PBXGroup;
+			children = (
+				407AB3141ECC440E0009F162 /* AdServerCommunications */,
+				407AB3261ECC440E0009F162 /* Conversion */,
+				407AB32C1ECC440E0009F162 /* KWKAdProvider.h */,
+				407AB32D1ECC440E0009F162 /* KWKAdProvider.m */,
+				407AB32E1ECC440E0009F162 /* KWKBannerView.h */,
+				407AB32F1ECC440E0009F162 /* KWKBannerView.m */,
+				407AB3301ECC440E0009F162 /* KWKClosableView.h */,
+				407AB3311ECC440E0009F162 /* KWKClosableView.m */,
+				407AB3321ECC440E0009F162 /* KWKGlobals.h */,
+				407AB3331ECC440E0009F162 /* KWKGlobals.m */,
+				407AB3341ECC440E0009F162 /* KWKLib+Private.h */,
+				407AB3351ECC440E0009F162 /* KwkLib.h */,
+				407AB3361ECC440E0009F162 /* KwkLib.m */,
+				407AB3381ECC440E0009F162 /* KwkLibDefines.h */,
+				407AB3391ECC440E0009F162 /* KWKOverlay.h */,
+				407AB33A1ECC440E0009F162 /* KWKOverlay.m */,
+				407AB33B1ECC440E0009F162 /* Mediation */,
+				407AB34C1ECC440E0009F162 /* MRAID */,
+				407AB3741ECC440E0009F162 /* NativeAds */,
+				407AB3771ECC440E0009F162 /* Parallax */,
+				407AB37E1ECC440E0009F162 /* Utils */,
+				407AB38A1ECC440E0009F162 /* ViewControllers */,
+			);
+			path = KwkLib;
+			sourceTree = "<group>";
+		};
+		407AB3141ECC440E0009F162 /* AdServerCommunications */ = {
+			isa = PBXGroup;
+			children = (
+				407AB3151ECC440E0009F162 /* KWKRestService.h */,
+				407AB3161ECC440E0009F162 /* KWKRestService.m */,
+				407AB3171ECC440E0009F162 /* Requests */,
+			);
+			path = AdServerCommunications;
+			sourceTree = "<group>";
+		};
+		407AB3171ECC440E0009F162 /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				407AB3191ECC440E0009F162 /* KWKAdRequest+Private.h */,
+				407AB31A1ECC440E0009F162 /* KWKAdRequest.h */,
+				407AB31B1ECC440E0009F162 /* KWKAdRequest.m */,
+				407AB31C1ECC440E0009F162 /* KWKBannerAdRequest.h */,
+				407AB31D1ECC440E0009F162 /* KWKBannerAdRequest.m */,
+				407AB31E1ECC440E0009F162 /* KWKNativeAdRequest+Private.h */,
+				407AB31F1ECC440E0009F162 /* KWKNativeAdRequest.h */,
+				407AB3201ECC440E0009F162 /* KWKNativeAdRequest.m */,
+				407AB3221ECC440E0009F162 /* KWKOverlayAdRequest.h */,
+				407AB3231ECC440E0009F162 /* KWKOverlayAdRequest.m */,
+				407AB3241ECC440E0009F162 /* KWKParallaxBannerAdRequest.h */,
+				407AB3251ECC440E0009F162 /* KWKParallaxBannerAdRequest.m */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		407AB3261ECC440E0009F162 /* Conversion */ = {
+			isa = PBXGroup;
+			children = (
+				407AB3271ECC440E0009F162 /* KwankoConversion.h */,
+				407AB3281ECC440E0009F162 /* KwankoConversion.m */,
+				407AB3291ECC440E0009F162 /* KwankoRemarketing.h */,
+				407AB32A1ECC440E0009F162 /* KwankoRemarketing.m */,
+				407AB32B1ECC440E0009F162 /* KwankoTrackingConstants.h */,
+			);
+			path = Conversion;
+			sourceTree = "<group>";
+		};
+		407AB33B1ECC440E0009F162 /* Mediation */ = {
+			isa = PBXGroup;
+			children = (
+				407AB33C1ECC440E0009F162 /* AdMob */,
+				407AB3431ECC440E0009F162 /* Kwanko */,
+				407AB3481ECC440E0009F162 /* KWKMediatedBanner.h */,
+				407AB3491ECC440E0009F162 /* KWKMediatedBanner.m */,
+				407AB34A1ECC440E0009F162 /* KWKMediatedInterstitial.h */,
+				407AB34B1ECC440E0009F162 /* KWKMediatedInterstitial.m */,
+			);
+			path = Mediation;
+			sourceTree = "<group>";
+		};
+		407AB33C1ECC440E0009F162 /* AdMob */ = {
+			isa = PBXGroup;
+			children = (
+				407AB4751ECDDF420009F162 /* Framework */,
+				407AB4781ECDDF420009F162 /* KWKAdMobMediatedBanner.h */,
+				407AB4791ECDDF420009F162 /* KWKAdMobMediatedBanner.m */,
+				407AB47A1ECDDF420009F162 /* KWKAdMobMediatedInterstitial.h */,
+				407AB47B1ECDDF420009F162 /* KWKAdMobMediatedInterstitial.m */,
+				407AB47C1ECDDF420009F162 /* KWKAdMobMediator.h */,
+				407AB47D1ECDDF420009F162 /* KWKAdMobMediator.m */,
+			);
+			path = AdMob;
+			sourceTree = "<group>";
+		};
+		407AB3431ECC440E0009F162 /* Kwanko */ = {
+			isa = PBXGroup;
+			children = (
+				407AB3441ECC440E0009F162 /* KWKMraidMediatedBanner.h */,
+				407AB3451ECC440E0009F162 /* KWKMraidMediatedBanner.m */,
+				407AB3461ECC440E0009F162 /* KWKMraidMediatedInterstitial.h */,
+				407AB3471ECC440E0009F162 /* KWKMraidMediatedInterstitial.m */,
+			);
+			path = Kwanko;
+			sourceTree = "<group>";
+		};
+		407AB34C1ECC440E0009F162 /* MRAID */ = {
+			isa = PBXGroup;
+			children = (
+				407AB34D1ECC440E0009F162 /* AdData */,
+				407AB3531ECC440E0009F162 /* AdViewControllers */,
+				407AB3561ECC440E0009F162 /* AdViews */,
+				407AB35E1ECC440E0009F162 /* JSExportClasses */,
+				407AB3691ECC440E0009F162 /* KWKMraid.h */,
+				407AB36A1ECC440E0009F162 /* KWKMraid.m */,
+				407AB36B1ECC440E0009F162 /* KWKMRAIDBridge+Private.h */,
+				407AB36C1ECC440E0009F162 /* KWKMRAIDBridge.h */,
+				407AB36D1ECC440E0009F162 /* KWKMRAIDBridge.m */,
+				407AB36E1ECC440E0009F162 /* KWKMraidHelper+Private.h */,
+				407AB36F1ECC440E0009F162 /* KWKMraidHelper.h */,
+				407AB3701ECC440E0009F162 /* KWKMraidHelper.m */,
+				407AB3711ECC440E0009F162 /* ViewControllers */,
+			);
+			path = MRAID;
+			sourceTree = "<group>";
+		};
+		407AB34D1ECC440E0009F162 /* AdData */ = {
+			isa = PBXGroup;
+			children = (
+				407AB34F1ECC440E0009F162 /* KWKAdData.h */,
+				407AB3501ECC440E0009F162 /* KWKAdData.m */,
+				407AB3511ECC440E0009F162 /* KWKNativeAdData.h */,
+				407AB3521ECC440E0009F162 /* KWKNativeAdData.m */,
+			);
+			path = AdData;
+			sourceTree = "<group>";
+		};
+		407AB3531ECC440E0009F162 /* AdViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				407AB3541ECC440E0009F162 /* KwkOverlayViewController.h */,
+				407AB3551ECC440E0009F162 /* KwkOverlayViewController.m */,
+			);
+			path = AdViewControllers;
+			sourceTree = "<group>";
+		};
+		407AB3561ECC440E0009F162 /* AdViews */ = {
+			isa = PBXGroup;
+			children = (
+				407AB3571ECC440E0009F162 /* KWKAdBaseView.h */,
+				407AB3581ECC440E0009F162 /* KWKAdBaseView.m */,
+				407AB3591ECC440E0009F162 /* KWKHtmlAdView.h */,
+				407AB35A1ECC440E0009F162 /* KWKHtmlAdView.m */,
+				407AB35B1ECC440E0009F162 /* KWKMraidAdView+Private.h */,
+				407AB35C1ECC440E0009F162 /* KWKMraidAdView.h */,
+				407AB35D1ECC440E0009F162 /* KWKMraidAdView.m */,
+			);
+			path = AdViews;
+			sourceTree = "<group>";
+		};
+		407AB35E1ECC440E0009F162 /* JSExportClasses */ = {
+			isa = PBXGroup;
+			children = (
+				407AB35F1ECC440E0009F162 /* KWKJSExpandProperty.h */,
+				407AB3601ECC440E0009F162 /* KWKJSExpandProperty.m */,
+				407AB3611ECC440E0009F162 /* KWKJSOrientaionProprety.h */,
+				407AB3621ECC440E0009F162 /* KWKJSOrientaionProprety.m */,
+				407AB3631ECC440E0009F162 /* KWKJSPosition.h */,
+				407AB3641ECC440E0009F162 /* KWKJSPosition.m */,
+				407AB3651ECC440E0009F162 /* KWKJSResizeProperty.h */,
+				407AB3661ECC440E0009F162 /* KWKJSResizeProperty.m */,
+				407AB3671ECC440E0009F162 /* KWKJSSize.h */,
+				407AB3681ECC440E0009F162 /* KWKJSSize.m */,
+			);
+			path = JSExportClasses;
+			sourceTree = "<group>";
+		};
+		407AB3711ECC440E0009F162 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				407AB3721ECC440E0009F162 /* KWKMraidExpandViewController.h */,
+				407AB3731ECC440E0009F162 /* KWKMraidExpandViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		407AB3741ECC440E0009F162 /* NativeAds */ = {
+			isa = PBXGroup;
+			children = (
+				407AB3751ECC440E0009F162 /* KWKNativeAd.h */,
+				407AB3761ECC440E0009F162 /* KWKNativeAd.m */,
+			);
+			path = NativeAds;
+			sourceTree = "<group>";
+		};
+		407AB3771ECC440E0009F162 /* Parallax */ = {
+			isa = PBXGroup;
+			children = (
+				407AB3781ECC440E0009F162 /* KWKParallaxBannerView+Private.h */,
+				407AB3791ECC440E0009F162 /* KWKParallaxBannerView.h */,
+				407AB37A1ECC440E0009F162 /* KWKParallaxBannerView.m */,
+				407AB37B1ECC440E0009F162 /* TableView */,
+			);
+			path = Parallax;
+			sourceTree = "<group>";
+		};
+		407AB37B1ECC440E0009F162 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				407AB37C1ECC440E0009F162 /* KWKParallaxTableViewCell.h */,
+				407AB37D1ECC440E0009F162 /* KWKParallaxTableViewCell.m */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		407AB37E1ECC440E0009F162 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				407AB3371ECC440E0009F162 /* KwkLibConsts.h */,
+				407AB37F1ECC440E0009F162 /* Connectivity */,
+				407AB3841ECC440E0009F162 /* KWKCalendarUtils.h */,
+				407AB3851ECC440E0009F162 /* KWKCalendarUtils.m */,
+				407AB3861ECC440E0009F162 /* KWKDBHelper.h */,
+				407AB3871ECC440E0009F162 /* KWKDBHelper.m */,
+				407AB3881ECC440E0009F162 /* KWKUtils.h */,
+				407AB3891ECC440E0009F162 /* KWKUtils.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		407AB37F1ECC440E0009F162 /* Connectivity */ = {
+			isa = PBXGroup;
+			children = (
+				407AB3801ECC440E0009F162 /* KWKConnectivityManager.h */,
+				407AB3811ECC440E0009F162 /* KWKConnectivityManager.m */,
+				407AB3821ECC440E0009F162 /* KWKReachability.h */,
+				407AB3831ECC440E0009F162 /* KWKReachability.m */,
+			);
+			path = Connectivity;
+			sourceTree = "<group>";
+		};
+		407AB38A1ECC440E0009F162 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				407AB38B1ECC440E0009F162 /* KWKWebViewController.h */,
+				407AB38C1ECC440E0009F162 /* KWKWebViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		407AB3BE1ECC44700009F162 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			path = KwkLib;
+			sourceTree = "<group>";
+		};
+		407AB4751ECDDF420009F162 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				407AB4761ECDDF420009F162 /* GoogleMobileAds.framework */,
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		406D453C1DFB04B700BB4DFA /* KwkLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 406D45461DFB04B700BB4DFA /* Build configuration list for PBXNativeTarget "KwkLib" */;
+			buildPhases = (
+				406D45391DFB04B700BB4DFA /* Sources */,
+				406D453A1DFB04B700BB4DFA /* Frameworks */,
+				406D453B1DFB04B700BB4DFA /* CopyFiles */,
+				4076696B1ECDF69800B2ADBA /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KwkLib;
+			productName = KwkLib;
+			productReference = 406D453D1DFB04B700BB4DFA /* libKwkLib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		407AB4631ECDCFB50009F162 /* KWKAdMobMediation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 407AB46C1ECDCFB50009F162 /* Build configuration list for PBXNativeTarget "KWKAdMobMediation" */;
+			buildPhases = (
+				407AB4601ECDCFB50009F162 /* Sources */,
+				407AB4611ECDCFB50009F162 /* Frameworks */,
+				407AB4621ECDCFB50009F162 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KWKAdMobMediation;
+			productName = KWKAdMobMediation;
+			productReference = 407AB4641ECDCFB50009F162 /* libKWKAdMobMediation.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		40D36DBC1E7AE0B300D4B1A4 /* KwankoConversion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40D36DC31E7AE0B300D4B1A4 /* Build configuration list for PBXNativeTarget "KwankoConversion" */;
+			buildPhases = (
+				40D36DB91E7AE0B300D4B1A4 /* Sources */,
+				40D36DBA1E7AE0B300D4B1A4 /* Frameworks */,
+				40D36DBB1E7AE0B300D4B1A4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KwankoConversion;
+			productName = KwankoConversion;
+			productReference = 40D36DBD1E7AE0B300D4B1A4 /* libKwankoConversion.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		406D45351DFB04B700BB4DFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				KnownAssetTags = (
+					Resources,
+				);
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Bogdan CHITU";
+				TargetAttributes = {
+					406D453C1DFB04B700BB4DFA = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					407AB4631ECDCFB50009F162 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					40D36DBC1E7AE0B300D4B1A4 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 406D45381DFB04B700BB4DFA /* Build configuration list for PBXProject "KwkLib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 406D45341DFB04B700BB4DFA;
+			productRefGroup = 406D453E1DFB04B700BB4DFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				406D453C1DFB04B700BB4DFA /* KwkLib */,
+				40D36DBC1E7AE0B300D4B1A4 /* KwankoConversion */,
+				407AB4631ECDCFB50009F162 /* KWKAdMobMediation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4076696B1ECDF69800B2ADBA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		406D45391DFB04B700BB4DFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				407AB3A91ECC440E0009F162 /* KWKJSOrientaionProprety.m in Sources */,
+				407AB38F1ECC440E0009F162 /* KWKBannerAdRequest.m in Sources */,
+				407AB3B31ECC440E0009F162 /* KWKParallaxTableViewCell.m in Sources */,
+				407AB3921ECC440E0009F162 /* KWKParallaxBannerAdRequest.m in Sources */,
+				407AB3A01ECC440E0009F162 /* KWKMediatedBanner.m in Sources */,
+				407AB3A41ECC440E0009F162 /* KwkOverlayViewController.m in Sources */,
+				407AB3A51ECC440E0009F162 /* KWKAdBaseView.m in Sources */,
+				407AB3AE1ECC440E0009F162 /* KWKMRAIDBridge.m in Sources */,
+				407AB39E1ECC440E0009F162 /* KWKMraidMediatedBanner.m in Sources */,
+				407AB3961ECC440E0009F162 /* KWKBannerView.m in Sources */,
+				407AB3941ECC440E0009F162 /* KwankoRemarketing.m in Sources */,
+				407AB3AC1ECC440E0009F162 /* KWKJSSize.m in Sources */,
+				407AB3B21ECC440E0009F162 /* KWKParallaxBannerView.m in Sources */,
+				407AB3B81ECC440E0009F162 /* KWKUtils.m in Sources */,
+				407AB3A21ECC440E0009F162 /* KWKAdData.m in Sources */,
+				407AB3B01ECC440E0009F162 /* KWKMraidExpandViewController.m in Sources */,
+				407AB3B51ECC440E0009F162 /* KWKReachability.m in Sources */,
+				407AB3981ECC440E0009F162 /* KWKGlobals.m in Sources */,
+				407AB3B41ECC440E0009F162 /* KWKConnectivityManager.m in Sources */,
+				407AB3901ECC440E0009F162 /* KWKNativeAdRequest.m in Sources */,
+				407AB3B61ECC440E0009F162 /* KWKCalendarUtils.m in Sources */,
+				407AB3AD1ECC440E0009F162 /* KWKMraid.m in Sources */,
+				407AB39A1ECC440E0009F162 /* KWKOverlay.m in Sources */,
+				407AB3B91ECC440E0009F162 /* KWKWebViewController.m in Sources */,
+				407AB3911ECC440E0009F162 /* KWKOverlayAdRequest.m in Sources */,
+				407AB3A71ECC440E0009F162 /* KWKMraidAdView.m in Sources */,
+				407AB3991ECC440E0009F162 /* KwkLib.m in Sources */,
+				407AB3931ECC440E0009F162 /* KwankoConversion.m in Sources */,
+				407AB3AB1ECC440E0009F162 /* KWKJSResizeProperty.m in Sources */,
+				407AB3B11ECC440E0009F162 /* KWKNativeAd.m in Sources */,
+				407AB3AF1ECC440E0009F162 /* KWKMraidHelper.m in Sources */,
+				407AB38E1ECC440E0009F162 /* KWKAdRequest.m in Sources */,
+				407AB3A81ECC440E0009F162 /* KWKJSExpandProperty.m in Sources */,
+				407AB3A61ECC440E0009F162 /* KWKHtmlAdView.m in Sources */,
+				407AB3A31ECC440E0009F162 /* KWKNativeAdData.m in Sources */,
+				407AB3B71ECC440E0009F162 /* KWKDBHelper.m in Sources */,
+				407AB3A11ECC440E0009F162 /* KWKMediatedInterstitial.m in Sources */,
+				407AB3951ECC440E0009F162 /* KWKAdProvider.m in Sources */,
+				407AB3AA1ECC440E0009F162 /* KWKJSPosition.m in Sources */,
+				407AB39F1ECC440E0009F162 /* KWKMraidMediatedInterstitial.m in Sources */,
+				407AB38D1ECC440E0009F162 /* KWKRestService.m in Sources */,
+				407AB3971ECC440E0009F162 /* KWKClosableView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		407AB4601ECDCFB50009F162 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				407AB47F1ECDDF420009F162 /* KWKAdMobMediatedBanner.m in Sources */,
+				407AB4811ECDDF420009F162 /* KWKAdMobMediator.m in Sources */,
+				407AB4801ECDDF420009F162 /* KWKAdMobMediatedInterstitial.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40D36DB91E7AE0B300D4B1A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				407AB3BB1ECC441F0009F162 /* KwankoRemarketing.m in Sources */,
+				407AB3BA1ECC441F0009F162 /* KwankoConversion.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		406D45441DFB04B700BB4DFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BITCODE_GENERATION_MODE = bitcode;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		406D45451DFB04B700BB4DFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BITCODE_GENERATION_MODE = bitcode;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		406D45471DFB04B700BB4DFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/../TestKwanko/TestKwanko/Frameworks/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-weak_framework",
+					"<GoogleMobileAds>",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		406D45481DFB04B700BB4DFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/../TestKwanko/TestKwanko/Frameworks/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-weak_framework",
+					"<GoogleMobileAds>",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		407AB46A1ECDCFB50009F162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/KwkLib/Mediation/AdMob/Framework",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		407AB46B1ECDCFB50009F162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/KwkLib/Mediation/AdMob/Framework",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		40D36DC41E7AE0B300D4B1A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					KWK_TRACKING_ONLY,
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		40D36DC51E7AE0B300D4B1A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = KWK_TRACKING_ONLY;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		406D45381DFB04B700BB4DFA /* Build configuration list for PBXProject "KwkLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				406D45441DFB04B700BB4DFA /* Debug */,
+				406D45451DFB04B700BB4DFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		406D45461DFB04B700BB4DFA /* Build configuration list for PBXNativeTarget "KwkLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				406D45471DFB04B700BB4DFA /* Debug */,
+				406D45481DFB04B700BB4DFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		407AB46C1ECDCFB50009F162 /* Build configuration list for PBXNativeTarget "KWKAdMobMediation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				407AB46A1ECDCFB50009F162 /* Debug */,
+				407AB46B1ECDCFB50009F162 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40D36DC31E7AE0B300D4B1A4 /* Build configuration list for PBXNativeTarget "KwankoConversion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40D36DC41E7AE0B300D4B1A4 /* Debug */,
+				40D36DC51E7AE0B300D4B1A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 406D45351DFB04B700BB4DFA /* Project object */;
+}
